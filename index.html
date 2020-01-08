@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Dung3on</title>
+    <script type="text/javascript" src="codigo.js"></script>
+    <script type="text/javascript" src="paginas.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+<body>
+    <h1 class="titulo">Project Dung3on</h1>
+    <div class="quadradoCentral" id="main">
+        <p>Bem vindo ao projeto Dung3on!</p>
+        <p>Um feiticeiro está aterrorizando a vila local e você foi instruído a matá-lo. Os aldeões falaram que o feiticeiro guarda tesouros imensuráveis em seu covil.</p>
+        <p>Nesta aventura você decide o que fazer e pra onde ir.</p>
+        <p>Role os atributos de seu personagem abaixo!</p>
+    </div>
+    <div class="botoes" id="botoes">
+            <input type="button" id="rolardados" value="Rolar Dados" onclick="iniciarJogador()">
+            <input type="button" value="Começar!" onclick="(Jogador.energia == null) ? alert('Role os dados primeiro!') : irPara(pag1)">
+    </div>
+    <table class="stats">
+        <tr>
+            <td class="stats">Habilidade</td>
+            <td class="stats">Energia</td>
+            <td class="stats">Sorte</td>
+        </tr>
+        <tr>
+            <td class="stats" id="tabhabilidade"></td>
+            <td class="stats" id="tabenergia"></td>
+            <td class="stats" id="tabsorte"></td>
+        </tr>
+    </table>
+</body>
+</html>

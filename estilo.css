@@ -1,0 +1,46 @@
+p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Consolas,monaco,monospace; 
+    font-size:large;
+}
+
+body{
+    background-color: #AAAAAA;
+}
+
+input{
+    height: 40px;
+    width: 200px;
+    font-size: large;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.quadradoCentral{
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 80%px;
+    border: double 3px white;
+    background: black;
+    color: white;
+}
+
+.botoes{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.stats{
+    margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 2px;
+    text-align: center;
+    font-size: xx-large;
+}
